@@ -21,8 +21,8 @@ for n in range(1, 9):
 
 wheather_statitics = pd.DataFrame(
     {
-        'periodo': lista_period,
-        'Descrição': lista_short,
-        'Temperatura': lista_temp
+        'period': lista_period,
+        'Description': lista_short,
+        'temperature': lista_temp
     })
 print(wheather_statitics)
